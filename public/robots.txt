@@ -3,4 +3,4 @@ User-agent: *
 Disallow:
 
 # Specify the sitemap location
-Sitemap: https://hekimakredit.onrender.com/sitemap.xml
+Sitemap: mkopoinuka.onrender.com/sitemap.xml

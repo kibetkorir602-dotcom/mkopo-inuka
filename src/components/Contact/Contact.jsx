@@ -37,9 +37,9 @@ const Contact = () => {
       {error && <Dialog text={error} title={"An Error Occurred!"} isError={true} />}
       <div className="wrapper">
         <div className="contacts">
-          <NavLink to="/" title='hekima_credit'>
-            <img src={Logo} alt='hekima_credit_logo' />
-            <h1>HEKIMA<span>kredit</span></h1>
+          <NavLink to="/" title='mkopo_ikuka'>
+            <img src={Logo} alt='mkopo_inuka_logo' />
+            <h1>MKOPO<span>inuka</span></h1>
           </NavLink>
           <p>
             431 University Way, 1st Floor<br />

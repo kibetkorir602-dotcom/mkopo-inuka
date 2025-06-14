@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hekima-kredit-cache';
+const CACHE_NAME = 'mkopo-inuka-cache';
 const urlsToCache = [
     '/',
     '/index.html',

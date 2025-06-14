@@ -9,7 +9,7 @@ import AppHelmet from './AppHelmet';
 export default function Home() {
   return (
     <div className='Home'>
-      <AppHelmet title={"Hekima Kredit"} />
+      <AppHelmet title={"MKOPO INUKA"} />
       <Slider />
       <h1 id='services'>What we offer:</h1>
       <Services />

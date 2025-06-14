@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <header>
             <NavLink to="/" className='logo'>
-                <img src={Logo} alt='hekima_kredit_logo' />
+                <img src={Logo} alt='mkopo_inuka_logo' />
             </NavLink>
             <nav>
                 <NavLink to="/" title='home'>Home</NavLink>

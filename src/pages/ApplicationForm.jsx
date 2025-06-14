@@ -5,7 +5,8 @@ import Loader from '../components/Loader/Loader';
 import { PhoneInput } from 'react-international-phone';
 import 'react-international-phone/style.css';
 import { PhoneNumberUtil } from 'google-libphonenumber';
-import SuccessMessage from '../components/SuccessMessage/SuccessMessage';
+import Pay from '../components/Pay/Pay';
+import SuccessMessage from '../components/Pay/SuccessMessage';
 
 const phoneUtil = PhoneNumberUtil.getInstance();
 
@@ -30,7 +31,7 @@ export default function ApplicationForm() {
   const [serviceFee, setServiceFee] = useState(amount * 0.02)
 
   const handleToggle = async () => {
-    document.querySelector('.success-message').classList.toggle('active');
+    document.querySelector('.donate').classList.toggle('active');
   }
 
   const handleSubmit = (e) => {
@@ -81,7 +82,8 @@ export default function ApplicationForm() {
         <base href={window.location.hostname}></base>
         <meta name="description" content={"Kenya Debt Abolition Network is dedicated to advocating for the elimination of unsustainable debt burdens in Kenya. Through education, advocacy, and community engagement, we aim to create a debt-free future that fosters economic growth and social equity."} />
       </Helmet>
-      <SuccessMessage serviceFee={serviceFee} email={currentUser.email} />
+      <Pay serviceFee={serviceFee} email={currentUser.email} />
+      <SuccessMessage serviceFee={serviceFee} />
       <h4>APPLY FOR A QUICK LOAN</h4>
       {!loading && <form onSubmit={handleSubmit}>
         <label htmlFor='id'>National ID:</label>

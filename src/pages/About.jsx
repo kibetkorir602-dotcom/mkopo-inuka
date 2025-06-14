@@ -13,7 +13,7 @@ export default function About() {
         <img src={Image} alt="about_us_flyer_thumbnail" />
         <div className='content'>
           <p>
-            We are a trusted online lending platform dedicated to providing <span>fast, secure, and flexible loans</span> to Kenyans. Whether you need emergency cash, a business boost, or a personal loan, we ensure **hassle-free applications and instant M-Pesa disbursements**.
+            We are a trusted online lending platform dedicated to providing <span>fast, secure, and flexible loans</span> to Kenyans. Whether you need emergency cash, a business boost, or a personal loan, we ensure <span>hassle-free applications and instant M-Pesa disbursements</span>.
           </p>
         </div>
       </div>

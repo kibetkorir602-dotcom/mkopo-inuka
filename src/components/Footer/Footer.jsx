@@ -15,7 +15,7 @@ const Footer = () => {
         <div className='footer theme'>
             <hr />
             <div className='footer-bottom theme'>
-                <p>&copy; HEKIMA KREDIT {new Date().getFullYear()}</p>
+                <p>&copy; MKOPO INUKA {new Date().getFullYear()}</p>
                 <NavLink to={'/about#faq'} title='what people ask'>FAQ</NavLink>
                 <button className="btn-top" onClick={() => handleScroll()}><ArrowUpward /></button>
             </div>

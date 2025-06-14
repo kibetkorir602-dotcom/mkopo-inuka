@@ -83,7 +83,7 @@
     border: 0;
     font-weight: bold;
     padding: 10px 20px;
-    background: var(--black);
+    background: var(--blue);
     color: var(--lite);
     font-size: 15px;
     box-shadow: var(--black-shadow);
@@ -93,6 +93,7 @@
     -ms-transition: all 0.4s;
     -o-transition: all 0.4s;
     text-decoration: none;
+    border-radius: 30px;
   }
   .btn:hover {
     box-shadow: 0px 25px 18px -6px rgba(0, 0, 0, 0.2);

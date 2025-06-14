@@ -1,7 +1,7 @@
 {
-    "short_name": "HEKIMA KREDIT",
-    "name": "HEKIMA KREDIT",
-    "homepage": "https://hekimakredit.onrender.com/",
+    "short_name": "MKOPO INUKA",
+    "name": "MKOPO INUKA",
+    "homepage": "mkopoinuka.onrender.com/",
     "version": "1.0.0",
     "description": "Get instant online loans to M-Pesa in minutes. No paperwork, no guarantors. Fast approval, low interest rates, and flexible repayment options.",
     "icons": [
@@ -98,12 +98,12 @@
         "type": "classic"
     },
     "developer": {
-        "name": "Your Loan App Name",
-        "url": "https://hekimakredit.onrender.com/"
+        "name": "MKOPO INUKA",
+        "url": "mkopoinuka.onrender.com/"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Kkibe/hekima-kredit.git"
+        "url": "https://github.com/Kkibe/mkopo-inuka.git"
     },
     "license": "ISC/MIT",
     "keywords": [
